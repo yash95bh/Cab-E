@@ -1,0 +1,301 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CountryList (1.1)
+  - CreditCardValidator (0.5.3)
+  - DropDown (2.3.13)
+  - Firebase/Auth (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.11.0)
+  - Firebase/Core (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.11.0)
+  - Firebase/CoreOnly (10.11.0):
+    - FirebaseCore (= 10.11.0)
+  - Firebase/Crashlytics (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.11.0)
+  - Firebase/Database (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 10.11.0)
+  - Firebase/Messaging (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.11.0)
+  - FirebaseAnalytics (10.11.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.11.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.11.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAppCheckInterop (10.11.0)
+  - FirebaseAuth (10.11.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseCore (10.11.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.11.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.11.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.11.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseDatabase (10.11.0):
+    - FirebaseCore (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (10.11.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.11.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseSessions (10.11.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.10)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesSwift (~> 2.1)
+  - GoogleAppMeasurement (10.11.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.11.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.11.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.3):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.4.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.1)"
+  - GoogleUtilities/Reachability (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.1.1)
+  - KeyboardAvoidingView (5.2.0):
+    - ViewState (>= 1.2.1)
+  - leveldb-library (1.22.2)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - PromisesObjC (2.2.0)
+  - PromisesSwift (2.2.0):
+    - PromisesObjC (= 2.2.0)
+  - RoutableLogger (12.3.0)
+  - SCLAlertView (0.8)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - Stripe (23.9.2):
+    - StripeApplePay (= 23.9.2)
+    - StripeCore (= 23.9.2)
+    - StripePayments (= 23.9.2)
+    - StripePaymentsUI (= 23.9.2)
+    - StripeUICore (= 23.9.2)
+  - StripeApplePay (23.9.2):
+    - StripeCore (= 23.9.2)
+  - StripeCore (23.9.2)
+  - StripePayments (23.9.2):
+    - StripeCore (= 23.9.2)
+    - StripePayments/Stripe3DS2 (= 23.9.2)
+  - StripePayments/Stripe3DS2 (23.9.2):
+    - StripeCore (= 23.9.2)
+  - StripePaymentsUI (23.9.2):
+    - StripeCore (= 23.9.2)
+    - StripePayments (= 23.9.2)
+    - StripeUICore (= 23.9.2)
+  - StripeUICore (23.9.2):
+    - StripeCore (= 23.9.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyGif (5.4.4)
+  - SwiftyJSON (5.0.1)
+  - UIView-Shimmer (1.0.4)
+  - ViewState (2.0.0):
+    - RoutableLogger (>= 9.1.11)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CountryList
+  - CreditCardValidator (~> 0.5.3)
+  - DropDown
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Crashlytics
+  - Firebase/Database
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - KeyboardAvoidingView
+  - Localize-Swift (~> 3.2)
+  - SCLAlertView
+  - SDWebImage (~> 4.0)
+  - Stripe
+  - SVProgressHUD
+  - SwiftyGif
+  - SwiftyJSON
+  - UIView-Shimmer (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CountryList
+    - CreditCardValidator
+    - DropDown
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseSessions
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - KeyboardAvoidingView
+    - leveldb-library
+    - Localize-Swift
+    - nanopb
+    - PromisesObjC
+    - PromisesSwift
+    - RoutableLogger
+    - SCLAlertView
+    - SDWebImage
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripePayments
+    - StripePaymentsUI
+    - StripeUICore
+    - SVProgressHUD
+    - SwiftyGif
+    - SwiftyJSON
+    - UIView-Shimmer
+    - ViewState
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CountryList: ad58cd670c4ecab6bb014abebc12e63f619174b2
+  CreditCardValidator: 8306e89b1092e03a146c1bd40943cff09e816772
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Firebase: 31d9575c124839fb5abc0db6d39511cc1dab1b85
+  FirebaseAnalytics: 6c6bf99e8854475bf1fa342028841be8ecd236da
+  FirebaseAppCheckInterop: 255b6c0292fe5da995c8b2df0c02f6a3ca7f61b4
+  FirebaseAuth: 7aabcb00fbf330db49c207c0d645b8b1b62df0e9
+  FirebaseCore: 62fd4d549f5e3f3bd52b7998721c5fa0557fb355
+  FirebaseCoreExtension: cacdad57fdb60e0b86dcbcac058ec78237946759
+  FirebaseCoreInternal: 9e46c82a14a3b3a25be4e1e151ce6d21536b89c0
+  FirebaseCrashlytics: 5927efd92f7fb052b0ab1e673d2f0d97274cd442
+  FirebaseDatabase: 4e1cb7f44ce6ffa553033913dd0d634b2310ce65
+  FirebaseInstallations: 2a2c6859354cbec0a228a863d4daf6de7c74ced4
+  FirebaseMessaging: 06253e9669434df0a40718fc82a90c78090f4704
+  FirebaseSessions: a62ba5c45284adb7714f4126cfbdb32b17c260bd
+  GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
+  GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  KeyboardAvoidingView: acc530b2435bba760b2270e722cb7132cf1c4d31
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  PromisesSwift: cf9eb58666a43bbe007302226e510b16c1e10959
+  RoutableLogger: 32283e3a2468028ee67ca71024c74228187073c6
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  Stripe: 58b4e0833be29ef08c5fd674edb94f2510430f35
+  StripeApplePay: 0c20d16e4b769699a3e6ecfd208d94bbe4730bd1
+  StripeCore: 523f526018df6a9f9c974148c9efc2b59a9a5be3
+  StripePayments: 2c8a4963effc9a1c1f2e272beeec5b6cbd090ab9
+  StripePaymentsUI: 08c3949cd7b1e990b5fac5d0748152a9a96131bb
+  StripeUICore: 6c614a7d5da3a15b0a9bd898f494611677066e79
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  UIView-Shimmer: ff0a32c73d67c7dbdea3d9e530538b10d18aea56
+  ViewState: 2443ba39d84bf9780fad2f5cd8909c81c62d4de5
+
+PODFILE CHECKSUM: 559ef891dd996c516e0f8595f7b2c6ddb720f3ad
+
+COCOAPODS: 1.14.3

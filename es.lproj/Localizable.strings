@@ -1,0 +1,372 @@
+/* 
+  Localizable.strings
+  Crown Cab
+
+  Created by NGFO Technology on 21/06/23.
+  Copyright © 2023 APPLE. All rights reserved.
+*/
+
+"Sign In" = "Iniciar sesión";
+"Sign Up" = "Regístrate";
+
+"Go Back" = "Regresa";
+"Welcome to PIKAP!" = "PIKAP Viaja de forma segura";
+"Get Started!" = "¡Empecemos!";
+"Enter your Mobile number" = "Ingrese su numero celular";
+"New to PIKAP" = "Nuevo en PIKAP";
+"Enter Mobile number" = "Ingrese el número de móvil";
+"Please Enter Mobile number!" = "¡Por favor; introduzca el número de móvil!";
+
+"First name" = "Nombre";
+"Last name" = "Apellido";
+"Email Id" = "Identificación de correo";
+"Mobile number" = "número de teléfono móvil";
+"Password" = "Contraseña";
+"Confirm Password" = "confirmar Contraseña";
+"I agree" = "Acepto";
+"Terms of Service" = "Términos de servicio";
+"Next" = "Próximo";
+"Please Enter First Name!" = "¡Por favor ingrese el nombre!";
+"Please Enter Last Name!" = "¡Por favor ingrese el apellido!";
+"Please Enter Passsword!" = "¡Por favor ingrese la contraseña!";
+"Please Enter Confirm Passsword!" = "¡Por favor ingrese Confirmar contraseña!";
+"Passsword does not match!" = "¡La contraseña no coincide!";
+"The password must be at least 6 characters!" = "¡La contraseña debe tener al menos 6 caracteres!";
+"Please Enter EmailId!" = "¡Por favor ingrese el ID de correo electrónico!";
+"Please Enter Mobile!" = "¡Por favor ingrese móvil!";
+"Please Enter Valid EmailID!" = "¡Ingrese un ID de correo electrónico válido!";
+"Please accept the terms & conditions" = "Por favor acepte los términos y condiciones";
+
+"ONE TIME PASSWORD" = "CÓDIGO DE SEGURIDAD";
+"kindly Enter the 6 digit code received on your mobile" = "Ingrese amablemente el código recibido en su teléfono";
+"Please Enter Valid Number!" = "¡Ingrese un número válido!";
+
+"Good morning" = "buen día,";
+"Good afternoon" = "Buenas tardes,";
+"Good evening" = "buenas noches,";
+"Good noon" = "Buen mediodía,";
+"Where are you going?" = "Adónde vas?";
+"Home" = "Hogar";
+"Work" = "Trabajo";
+"Search destination" = "Buscar destino";
+"Enter Cancel Reason" = "Ingresa el motivo de cancelación";
+"Login to Access Details" = "Iniciar sesión para acceder a los detalles";
+"PIKAP" = "PIKAP";
+"Ok" = "DE ACUERDO";
+"Cancel" = "Cancelar";
+"Service not available" = "Servicio no disponible";
+"Service not available!, kindly check the selected location and try again" = "¡Servicio no disponible! Verifique la ubicación seleccionada e intente nuevamente";
+"Are you sure you want to log out?" = "¿Estás seguro de que quieres cerrar sesión?";
+"Please Turn On Your Internet And Try Again" = "Enciende tu Internet e inténtalo de nuevo";
+"Hi there" = "Hola";
+"Your ride was cancelled" = "Tu viaje fue cancelado";
+"Location services is disabled, Please enable to use Our Service" = "Los servicios de ubicación están deshabilitados, habilítelos para usar nuestro servicio";
+"Driver arrived at your location" = "El conductor llegó a su ubicación";
+"You are on Ride" = "estás en un paseo";
+"You reached your destination" = "Llegaste a tu destino";
+"Are you sure you want to cancel the trip?" = "¿Estás seguro de que deseas cancelar el viaje?";
+"Yes" = "Sí";
+"No" = "No";
+
+"Trip" = "Viaje";
+"Done" = "Hecho";
+"Start" = "Comenzar";
+"Stop 1" = "Parada 1";
+"Stop 2" = "Parada 2";
+"Destination" = "Destino";
+"Set location on pin" = "Establecer ubicación en pin";
+"Enter Start Location" = "Ingrese la ubicación de inicio";
+"Enter Destination Location" = "Ingrese la ubicación de destino";
+"You are not a corporate account user. Kindly login to your corporate account to take corporate ride" = "No es un usuario de una cuenta corporativa. Inicie sesión en su cuenta corporativa para tomar un viaje corporativo";
+"Enter Picjup Location" = "Ingrese la ubicación de recogida";
+"Enter destination" = "Introduce el destino";
+
+"PickUp" = "Recogido";
+"Apply" = "Aplicar";
+"Apply Coupon" = "Aplicar cupón";
+"Coupon Applied" = "Cupón aplicado con éxito";
+"Enter Coupon Code" = "Introduce el código de cupón";
+"Coupon is not valid or may Expired" = "El cupón no es válido o puede haber caducado";
+
+"Confirm Pickup Location" = "Confirmar lugar de recogida";
+"You can edit your pickup location by dragging the map" = "Puedes editar tu ubicación de recogida arrastrando el mapa";
+"Location" = "Ubicación";
+"Confirm and Request" = "Confirmar y Solicitar";
+"Add note to driver" = "Agregar nota al conductor";
+"Are you sure want to cancel the ride? " = " ¿Desea cancelar el viaje?";
+"Ride cancelled by Dispatcher" = "Viaje cancelado por Dispatcher";
+"Sorry, no drivers available at the moment, Please try again in a few minutes" = "Lo sentimos, no hay controladores disponibles en este momento. Vuelva a intentarlo en unos minutos.";
+"Your ride was cancelled" = "Tu viaje fue cancelado";
+
+"For an easy pickup, you can add a note for driver" = "Para una fácil recogida, puede agregar una nota para el conductor";
+"Pickup note" = "nota de recogida";
+
+//sidemenu
+"Your Trips" = "Tus Viajes";
+"Promo Code" = "Código promocional";
+"Payment" = "Pago";
+"Emergency" = "Emergencia";
+"Settings" = "Ajustes";
+"Language" = "Idioma";
+"Favourite Address" = "Dirección favorita";
+"Notifications" = "Notificación";
+"Logout" = "Cerrar sesión";
+"Coming soon" = "Muy pronto";
+"View profile" = "Ver perfil";
+"Drive with PIKAP" = "Tu Mejor opción en Transporte";
+
+//profile
+"Profile" = "Perfil";
+"Personal" = "Personal";
+"Name" = "Nombre";
+"Email ID" = "Identificación de correo";
+"Mobile Number" = "Número de teléfono móvil";
+"Corporate" = "Corporativo";
+"Please Enter current password!" = "¡Por favor ingrese la contraseña actual!";
+"Please Enter Passsword!" = "¡Por favor ingrese la contraseña!";
+"Please Enter confirm password!" = "¡Ingrese la contraseña de confirmación!";
+"Password Does not match!" = "¡Las contraseñas no coinciden!";
+"You don't have camera" = "no tienes camara";
+"You don't have permission to access gallery." = "No tienes permiso para acceder a la galería.";
+"Crown Cab Corporate Profile.Choose this profile when booking work-related rides.Get invoices and expense report in your official email" = "Perfil corporativo de Crown Cab. Elija este perfil cuando reserve viajes relacionados con el trabajo. Obtenga facturas e informes de gastos en su correo electrónico oficial";
+"Delete Account" = "Borrar cuenta";
+
+"Edit Profile" = "Editar perfil";
+"Save" = "Ahorrar";
+
+//trip
+"Your Trips" = "Tus Viajes";
+"You have no trips" = "no tienes viajes";
+"As soon as you finish a ride, all of your relevant details will be found here" = "Tan pronto como termine un viaje, todos sus detalles relevantes se encontrarán aquí";
+"All" = "Todo";
+"Today" = "Hoy";
+"Weekly" = "Semanalmente";
+"Monthly" = "Mensual";
+"Yearly" = "Anual";
+"COMPLETED" = "Terminado";
+"SCHEDULED" = "Programado";
+"CANCELLED" = "Cancelado";
+"Booking Id:" = "identificación de la reserva:";
+
+
+"History" = "Historia";
+"Driver Rating" = "Calificación del conductor";
+"Bill Details" = "Detalles de la factura";
+"Ride Fare" = "tarifa de viaje";
+"Total Access Fee" = "Tarifa de acceso total";
+"Coupon Savings" = "Cupón de Ahorro";
+"Tips" = "Consejos";
+"Total" = "Total";
+"Payment" = "Pago";
+"Get Help" = "Consigue ayuda";
+"Get Invoice Copy" = "Obtener copia de factura";
+
+"Enter Cancel Reason" = "Ingrese el motivo de cancelación";
+"You may be Charged for this Cancellation" = "Es posible que se le cobre por esta cancelación.";
+"Are you sure want to cancel?" = "¿Seguro que quieres cancelar?";
+"Don't Cancel" = "no canceles";
+"Cancel" = "Cancelar";
+
+//promocode
+"Start : %@" = "Comenzar : %@";
+"Expiry : %@" = "Caducidad: %@";
+"UsageCount : %@" = "recuento de uso: %@";
+
+"No Coupons Available" = "No hay cupones disponibles";
+
+//payment
+"Payment Methods" = "Métodos de pago";
+"Cash" = "Dinero";
+
+//emergency
+"Maximum you can add 5 contact to your Emergency List" = "Máximo puede agregar 5 contactos a su lista de emergencia";
+"An SOS message, including your GPS coordinates, will be sent to your Emergency Contacts" = "Se enviará un mensaje SOS, incluidas sus coordenadas GPS, a sus contactos de emergencia";
+
+//setting
+"Admin" = "administración";
+"Map Style" = "Estilo de mapa";
+"Help & Support" = "ayuda y apoyo";
+"Share app with friend" = "Comparte la aplicación con un amigo";
+"Terms & Conditions" = "Términos y condiciones";
+"Privacy Policy" = "política de privacidad";
+"© 2021  PIKAP.Version 1.0" = "© 2021 PIKAP.Versión 1.0";
+
+//language
+"Select the preferred language" = "Seleccione el idioma preferido";
+"Select" = "Seleccionar";
+"Select any language" = "Seleccione cualquier idioma";
+
+//notification
+"We will send you notification if something happens new" = "Le enviaremos una notificación si sucede algo nuevo.";
+"Waiting For Notifications?" = "¿Esperando notificaciones?";
+"Team PIKAP" = "Equipo PIKAP";
+"Happy ride" = "paseo feliz";
+
+//address
+"My Addressess" = "mis direcciones";
+"Want to delete this address ?" = "¿Quieres eliminar esta dirección?";
+"Delete Address ?" = "¿Eliminar dirección?";
+"Delete" = "Borrar";
+
+"Edit Address" = "Editar dirección";
+"Enter Address" = "Ingresa la direccion";
+
+
+
+
+"Schedule Ride" = "Programar viaje";
+"Corporate" = "Corporativo";
+"Personal" = "Personal";
+"Cash" = "Dinero";
+
+"Relax, Connecting drivers nearby .." = "Relájate, Conectando conductores cerca..";
+"Cancel trip" = "Cancelar viaje";
+
+//home
+"Contact" = "Llamar";
+"Support" = "Soporte";
+"Share" = "Compartir";
+"Invoice Details" = "Detalles de la factura";
+"Booking Id" = "Identificación de la reserva";
+"Base Fare" = "Tarifa base";
+"Flat Fare" = "Tarifa Plana";
+"Distance Fare" = "Tarifa de distancia";
+"Minute Fare" = "Tarifa por minuto";
+"OnArrival Waiting Fare" = "OnArrival Waiting Fare";
+"Stops Waiting Fare" = "Deja de esperar la tarifa";
+"Toll" = "Peaje";
+"Pending due" = "pendiente debido";
+"Tax" = "Impuesto";
+"Discount" = "Descuento";
+"Extra Fare" = "Tarifa adicional";
+"Share Ride Details" = "Compartir detalles del viaje";
+
+
+//triprate
+"Ride Complete" = "¡Viaje Completado!";
+"Add a comment" = "Añadir un comentario";
+"How would you rate communication between you and driver" = "¿Cómo calificaría la comunicación entre usted y el conductor?";
+"Add tip" = "Agregar sugerencia";
+"100% of tips go to drivers" = "El 100% de las propinas van a los conductores.";
+"Rate your Ride" = "Califica tu viaje";
+"Enter your comment/Feedback" = "Ingrese su comentario/retroalimentación";
+" Add to Favourites" = "Agregar a favoritos";
+" Favourited" = "Favorito";
+"Favourited" = "Favorito";
+
+"Driver is on the way" = "El conductor está en camino";
+
+"I forgot my password ?" = "Olvidé mi contraseña ?";
+"Forgot Password" = "Has olvidado tu contraseña";
+"Enter the Number" = "Ingrese el número";
+"Your password reset OTP will be sent to your entered mobile number where you can create the new password" = "Su OTP de restablecimiento de contraseña se enviará a su número de teléfono móvil ingresado donde puede crear la nueva contraseña";
+
+"Sent via Mobile to " = "Enviado por móvil a ";
+"Reset password" = "Restablecer la contraseña";
+"Verify with OTP" = "Verificar con OTP";
+"New Password" = "Nueva contraseña";
+"Enter Password" = "Introducir la contraseña";
+"Reset" = "reiniciar";
+"Resend OTP in" = "Reenviar OTP en";
+"Resend" = "Reenviar";
+
+
+"Invalid OTP!" = "OTP no válido!";
+"Please Enter  New Password!" = "¡Por favor ingrese una nueva contraseña!";
+"Confirm password does not match new password!" = "¡Confirmar contraseña no coincide con la nueva contraseña!";
+
+
+"Succesfully uploaded " = "Subido con éxito ";
+"Wallet" = "Billetera";
+"Passenger Wallet" = "Billetera de pasajero";
+"Add Money" = "Agregar dinero";
+"Please enter the amount" = "Por favor ingrese la cantidad";
+
+
+//refer
+"Refer & Earn" = "Referir y ganar";
+"Invite your friends and get more exciting offers!" = "Invite your friends and get more exciting offers!";
+"Share the code below or ask them to enter it after they sign up. Your coupon will appear after the first ride." = "Comparta el código a continuación o pídales que lo ingresen después de registrarse. Su cupón aparecerá después del primer viaje.";
+"For your friend to receive  their coupon, ensure  that they use your referral before their first ride & within 10 days of sign up" = "Para que su amigo reciba su cupón, asegúrese de que use su referencia antes de su primer viaje y dentro de los 10 días posteriores a la inscripción";
+"Copy code" = "Copiar código";
+"Invite friends" = "Invitar a amigos";
+
+
+//addcard
+"Please enter card Name" = "Por favor ingrese el nombre de la tarjeta";
+"Please enter card number" = "Por favor ingrese número de tarjeta";
+"Please enter CVV" = "Por favor ingrese CVV";
+"Please enter card month" = "Ingrese el mes de la tarjeta";
+"Please enter card year" = "Ingrese el año de la tarjeta";
+"Please enter valid card number" = "Por favor, introduzca un número de tarjeta válido";
+
+"Recharge" = "Recargar";
+"Recharge History" = "Historial de recarga";
+
+"Spanish" = "Español";
+"English" = "Ingles";
+
+"Confirm" = "Confirmar";
+"drop off" = "dejar";
+
+"Text message" = "Mensaje de texto";
+"WhatsApp Message" = "Mensaje de whatsApp";
+"Emergency" = "Emergencias";
+
+"Cancel Ride" = "Cancelar Viaje";
+
+"Excellent" = "Excelente";
+"Good Driving" = "Buena conducción";
+"Punctuality" = "Puntualidad";
+"Proper Route" = "Ruta adecuada";
+
+"PIKAP" = "PIKAP";
+"Drive with UFF Driver" = "Tu Mejor opción en Transporte";
+
+"Good night" = "Buenas noches,";
+
+"Add Card" = "Agregar tarjeta";
+"Add Card (Optional)" = "Agregar tarjeta (Opcional)";
+"Enter your Card details" = "Introduce los datos de tu Tarjeta";
+"Cardholder Name" = "Nombre del titular de la tarjeta";
+"Card Number" = "Número de tarjeta";
+"CVV" = "CVV";
+"Expiration Date" = "Fecha de caducidad";
+"MM" = "MM";
+"YY" = "YY";
+"Payment method" = "Método de pago";
+"Your payment information will be stored securely" = "Su información de pago se almacenará de forma segura";
+"Skip" = "omitir";
+
+"Amount Added" = "Cantidad agregada";
+"Select Card" = "Seleccionar tarjeta";
+
+"choose profile image" = "Elige imagen de perfil";
+
+"Available Cards" = "Tarjetas disponibles";
+"No Cards Added" = "No se agregaron tarjetas";
+
+"Do not delete primary card" = "No eliminar la tarjeta principal";
+
+"Camera" = "Cámara";
+"Gallery" = "Galería";
+
+"Seats" = "Asientos";
+"Mininum" = "Mínimo";
+"Base Fare" = "Tarifa base";
+"Per Mile" = "Por milla";
+"Per Minute" = "Por minuto";
+"Service fee and applicable fees may include" = "La tarifa de servicio y las tarifas aplicables pueden incluir";
+
+
+"Account disabled. Please contact the administrator." = "Cuenta desactivada. Por favor, póngase en contacto con el administrador.";
+
+"Are you sure want to delete account" = "¿Estás seguro de que quieres eliminar la cuenta?";
+"Account deleted successfully" = "Cuenta eliminada exitosamente";
+
+"Please choose your card" = "Por favor elige tu tarjeta";
+
+
+"Card" = "Tarjeta";
+
+"Good noon" = "Buenas tardes";

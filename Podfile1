@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'UnicoPlus' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for UnicoPlus
+   pod 'DropDown'
+     # Web Service Handling
+     pod 'Alamofire', '~> 4.5'
+     pod 'SwiftyJSON'
+      pod 'Stripe'
+
+    # Loading
+     pod 'SVProgressHUD'
+    # Alert
+    pod 'SCLAlertView'
+  #FireBase
+     pod 'Firebase/Auth'
+     pod 'Firebase/Core'
+     pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
+  pod 'SDWebImage', '~> 4.0'
+  #google placecs
+   pod 'GooglePlaces'
+  pod 'GoogleMaps'
+  pod 'SwiftyGif'
+#pod 'UBottomSheet'
+pod "KeyboardAvoidingView", '~> 5.1'
+#pod 'GiFHUD-Swift'
+#pod 'MarqueeLabel'
+  target 'UnicoPlusTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'UnicoPlusUITests' do
+    # Pods for testing
+  end
+
+end
