@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/ll_wot_bg"
+            android:orientation="vertical">
+
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_title"
+                style="@style/NTExtraLargeTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_desc"
+                style="@style/NTRegularTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center" />
+
+            <com.eviort.cabedriver.NTCustomView.NTEditText
+                android:id="@+id/reason_etxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/border_theme"
+                android:gravity="start"
+                android:hint="Enter cancel Reason"
+                android:lines="3"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="gone" />
+
+            <com.eviort.cabedriver.NTCustomView.NTCheckbox
+                android:id="@+id/check_reason_without"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/action_future_ride"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="gone" />
+
+            <com.eviort.cabedriver.NTCustomView.NTCheckbox
+                android:id="@+id/check_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/action_future_ride"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_negative"
+                style="@style/NTExtraLargeTextAppearanceWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_left_bottom_rounded"
+                android:gravity="center" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_positive"
+                style="@style/NTExtraLargeTextAppearanceWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_right_bottom_rounded"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

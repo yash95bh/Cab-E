@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522373040715",
+    "project_id": "dogwood-courier-429509-e9",
+    "storage_bucket": "dogwood-courier-429509-e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522373040715:android:0ba1ff551f28289d035bce",
+        "android_client_info": {
+          "package_name": "com.eviort.cabedriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxbyVWHC8Zr5nqjagAnF3JM0PtQNXp04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522373040715:android:16e7e25349801e99035bce",
+        "android_client_info": {
+          "package_name": "com.eviort.cabeuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxbyVWHC8Zr5nqjagAnF3JM0PtQNXp04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

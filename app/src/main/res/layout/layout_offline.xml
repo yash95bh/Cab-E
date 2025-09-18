@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_offline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:clickable="false"
+    android:contextClickable="false"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet_rv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/top_rounded_them_corner"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="600dp">
+
+
+        <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+            android:id="@+id/tv_offline_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/offline_now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/white">
+
+        </View>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

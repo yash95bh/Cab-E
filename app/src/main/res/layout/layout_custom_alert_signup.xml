@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_50sdp"
+    android:layout_marginRight="@dimen/_50sdp"
+    android:background="@drawable/border_stroke_gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+        android:id="@+id/alert_title"
+        style="@style/NTLargeTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_success" />
+
+    <com.eviort.cabedriver.NTCustomView.NTTextView
+        android:id="@+id/alert_desc"
+        style="@style/NTRegularTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/alert_success_desc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/black"
+        android:gravity="center">
+
+        <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/alert_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</LinearLayout>

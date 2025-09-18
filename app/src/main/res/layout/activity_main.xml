@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/mainActivity_mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            tools:openDrawer="start">
+
+            <include
+                layout="@layout/app_bar_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/bg_view"
+                android:fitsSystemWindows="true"
+                app:headerLayout="@layout/nav_header_main"
+                app:itemBackground="@color/bg_view"
+                app:itemHorizontalPadding="@dimen/_10sdp"
+                app:itemIconPadding="@dimen/_15sdp"
+                app:itemIconTint="@null"
+                app:itemTextColor="@color/nav_item_text"
+                app:menu="@menu/activity_main_drawer"
+                app:theme="@style/NavigationDrawerStyle">
+
+                <LinearLayout
+                    android:id="@+id/footer_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:background="@color/red"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/_13sdp"
+                        android:src="@drawable/logo" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:text="@string/drive_with_crown"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.google.android.material.navigation.NavigationView>
+
+            <!--app:itemIconTint="@android:color/black"-->
+            <!--app:itemTextColor="@android:color/black"-->
+            <!--app:itemBackground="@android:color/transparent"-->
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainActivity_error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainActivity_mainLayout"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fl_offline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent_gray"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/online"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            app:srcCompat="@drawable/off" />
+
+        <include layout="@layout/layout_offline" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

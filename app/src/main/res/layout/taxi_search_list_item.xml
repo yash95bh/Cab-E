@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/search_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp">
+
+
+        <LinearLayout
+            android:id="@+id/taxi__search_listitem"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:minHeight="?android:listPreferredItemHeight"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/taxi__search_listitem_imageview_edit"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="right|center"
+                android:background="@null"
+                android:padding="5dp"
+                android:src="@drawable/marker"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.eviort.cabedriver.NTCustomView.NTTextView
+                    android:id="@+id/taxi__search_listitem_textview_title"
+                    style="@style/NTSmallTextAppearance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:singleLine="true" />
+
+                <com.eviort.cabedriver.NTCustomView.NTTextView
+                    android:id="@+id/taxi__search_listitem_textview_subtitle"
+                    style="@style/NTSmallTextAppearance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ll_wot_bg"
+            android:orientation="vertical">
+
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_title"
+                style="@style/NTExtraLargeTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_desc"
+                style="@style/NTRegularTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_noBtn"
+                style="@style/NTExtraLargeTextAppearanceWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_left_bottom_rounded"
+                android:gravity="center" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/tv_alert_okBtn"
+                style="@style/NTExtraLargeTextAppearanceWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_right_bottom_rounded"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

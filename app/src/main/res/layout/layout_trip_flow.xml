@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_trip_flow_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_rounded_grey_corner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <com.eviort.cabedriver.NTCustomView.NTTextView
+                    android:id="@+id/driver_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:text="@string/riding_status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imgSos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/driver_status"
+                    android:src="@drawable/sos_icon"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/llwaitingTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_20sdp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_gravity="center"
+
+                        android:background="@color/text_color_lite_gray"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+                <LinearLayout
+
+
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+
+                    android:visibility="visible">
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/waiting_start_time_status"
+                        style="@style/NTButtonStylePrimary"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/button_rounded"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/Start"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/waiting_pause_time_status"
+                        style="@style/NTButtonStylePrimary"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="@drawable/button_rounded"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/Pause"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <Chronometer
+                        android:id="@+id/wt"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@drawable/button_rounded_red"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/table_satutes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_weight="0.4"
+                    android:src="@drawable/ic_driver" />
+
+                <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+                    android:id="@+id/usernameTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_17sdp" />
+
+                <ImageView
+                    android:id="@+id/iv_cancel_trip"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_weight="0.4"
+                    android:padding="@dimen/_10sdp"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ic_cancelled_rides" />
+
+                <com.eviort.cabedriver.NTCustomView.NTButton
+                    android:id="@+id/btn_viewDetails"
+                    style="@style/NTButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_call_user"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:padding="@dimen/_10sdp"
+                    app:srcCompat="@drawable/ic_call" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.eviort.cabedriver.swipebtn.SwipeButton
+                    android:id="@+id/btn_statusUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:button_background="@drawable/rounded_button_slide"
+                    app:button_bottom_padding="15dp"
+                    app:button_image_disabled="@drawable/ic_baseline_arrow_forward_ios_24"
+                    app:button_image_enabled="@drawable/ic_baseline_arrow_forward_ios_24"
+                    app:button_image_height="@dimen/_43sdp"
+                    app:button_image_width="@dimen/_43sdp"
+                    app:button_left_padding="18dp"
+                    app:button_right_padding="18dp"
+                    app:button_top_padding="15dp"
+                    app:button_trail_drawable="@drawable/ic_baseline_arrow_forward_ios_24"
+                    app:has_activate_state="true"
+                    app:initial_state="disabled"
+                    app:inner_text="@string/slide_to_arrive"
+                    app:inner_text_background="@drawable/button_bg1"
+                    app:inner_text_bottom_padding="15dp"
+                    app:inner_text_color="@color/black"
+                    app:inner_text_size="@dimen/_16sdp"
+                    app:inner_text_top_padding="15dp" />
+
+
+                <com.eviort.cabedriver.NTCustomView.NTButton
+                    android:id="@+id/btn_cancelRequest"
+                    style="@style/NTButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:text="@string/cancel"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

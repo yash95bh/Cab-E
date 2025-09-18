@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.firebase.crashlytics'
+
+/*// Apply the Crashlytics Gradle plugin
+apply plugin: 'com.google.firebase.crashlytics'*/
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.eviort.cabedriver"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 7
+        versionName "1.0.6"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '30.0.3'
+    namespace 'com.eviort.cabedriver'
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.GoodieBag:Pinview:v1.4'
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.android.material:material:1.3.0'
+    //implementation 'com.ebanx:swipe-button:0.8.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    // implementation 'com.daasuu:CountAnimationTextView:0.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation 'io.michaelrocks:libphonenumber-android:8.13.52'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.github.sharish:ShimmerRecyclerView:1.3'
+
+    /* implementation('com.futuremind.recyclerfastscroll:fastscroll:0.2.5', {
+         exclude group: 'com.android.support'
+     })*/
+
+//    implementation 'com.theartofdev.edmodo:android-image-cropper:'
+
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.1'
+    implementation "com.google.firebase:firebase-iid:21.1.0"
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-config:21.0.1'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+    implementation 'com.google.guava:guava:27.0.1-android'
+
+    implementation 'androidx.navigation:navigation-fragment:2.4.0-beta02'
+    implementation 'androidx.navigation:navigation-ui:2.4.0-beta02'
+    //noinspection GradleDynamicVersion
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
+    implementation 'com.google.android.libraries.places:places:3.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics:18.3.2'
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    /* implementation 'com.google.firebase:firebase-crashlytics:18.2.0'
+     implementation 'com.google.firebase:firebase-analytics:19.0.0'*/
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.hbb20:ccp:2.7.0'
+}
+apply plugin: 'com.google.gms.google-services'

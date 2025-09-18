@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Light" translatable="false">fonts/OpenSans-Regular.ttf</string>
+    <string name="Bold" translatable="false">fonts/OpenSans-Bold.ttf</string>
+</resources>

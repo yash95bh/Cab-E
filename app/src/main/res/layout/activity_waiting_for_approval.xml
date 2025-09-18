@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/driver_gif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/driver" />
+
+        <LinearLayout
+            android:id="@+id/vehicleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/driver_gif"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_document"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableTint="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/uploaddocument"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <ImageView
+                android:id="@+id/ivVehicleStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/btnVehicleDoc"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vehicleLayout"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/lblWaiting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:gravity="center"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/waitingForApproval"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/uploadDocument"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lblWaiting"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/editDocument"
+                android:textColor="@color/link_blue"
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.eviort.cabedriver.NTCustomView.NTButtonBold
+        android:id="@+id/logoutBtn"
+        style="@style/NTButtonStylePrimaryBlack"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/action_logout" />
+
+</RelativeLayout>

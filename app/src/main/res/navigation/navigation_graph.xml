@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentViewDetails"
+            app:destination="@id/fragmentViewDetails" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentViewDetails2"
+            app:destination="@id/fragmentViewDetails" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentHistory"
+            app:destination="@id/fragmentHistory" />
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentFuture"
+            app:destination="@id/fragmentFuture" />
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentStreetRide"
+            app:destination="@id/fragmentStreetRide" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentSummary"
+            app:destination="@id/fragmentSummary" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentAbout"
+            app:destination="@id/fragmentAbout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentViewDetails"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentViewDetails"
+        android:label="fragment_view_details"
+        tools:layout="@layout/fragment_view_details" />
+    <fragment
+        android:id="@+id/fragmentCashoutDetails"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentCashoutList"
+        android:label="fragment_cashout_list"
+        tools:layout="@layout/fragment_cashout_list" />
+    <fragment
+        android:id="@+id/fragmentHistory"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentHistory"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_fragmentHistory_to_fragmentOffer"
+            app:destination="@id/fragmentOffer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentFuture"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentFuture"
+        android:label="fragment_street_ride"
+        tools:layout="@layout/fragment_future" />
+
+    <fragment
+        android:id="@+id/fragmentStreetRide"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentStreetRide"
+        android:label="fragment_street_ride"
+        tools:layout="@layout/activity_street_ride" />
+    <fragment
+        android:id="@+id/fragmentEarnings"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentEarnings"
+        android:label="fragment_earnings"
+        tools:layout="@layout/fragment_earnings" />
+    <fragment
+        android:id="@+id/fragmentSummary"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentSummary"
+        android:label="fragment_summary"
+        tools:layout="@layout/fragment_summary" />
+    <fragment
+        android:id="@+id/fragmentWallet"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentWallet"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/fragmentOffline"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentOffline"
+        android:label="fragment_offline"
+        tools:layout="@layout/fragment_offline" />
+    <fragment
+        android:id="@+id/fragmentAbout"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentAbout"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/fragmentLanguage"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentLanguage"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/fragmentNotification"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentNotification"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/fragmentEmergency"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentEmergencyContact"
+        android:label="fragment_emergency_contact"
+        tools:layout="@layout/fragment_emergency_contact" />
+    <fragment
+        android:id="@+id/fragmentHistoryDetails"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentHistoryDetails"
+        android:label="fragment_history_details"
+        tools:layout="@layout/fragment_history_details">
+        <action
+            android:id="@+id/action_fragmentHistoryDetails_to_fragmentInvoice"
+            app:destination="@id/fragmentInvoice" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInvoice"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentInvoice"
+        android:label="fragment_invoice"
+        tools:layout="@layout/fragment_invoice" />
+    <fragment
+        android:id="@+id/fragmentOffer"
+        android:name="com.eviort.cabedriver.NTFragment.FragmentOffer"
+        android:label="fragment_offer"
+        tools:layout="@layout/fragment_offer">
+        <action
+            android:id="@+id/action_fragmentOffer_to_fragmentHistoryDetails"
+            app:destination="@id/fragmentHistoryDetails" />
+    </fragment>
+</navigation>

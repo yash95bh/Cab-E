@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".NTFragment.FragmentViewDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="@dimen/_5sdp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:text="Trip Details" />
+
+                    <ImageView
+                        android:id="@+id/close_detailview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button"
+                        android:padding="@dimen/_5sdp"
+                        app:srcCompat="@drawable/ic_clear_black_24dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/dashed_border"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Trip Id" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_tripid"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Trip Id" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_bookingid"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Booking Id" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/dashed_border"
+                android:padding="@dimen/_5sdp"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <TableLayout>
+
+
+                        <TableRow>
+
+                            <ImageView
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:src="@drawable/location_pickup" />
+
+                            <com.eviort.cabedriver.NTCustomView.NTTextView
+                                android:id="@+id/tv_pickup"
+                                style="@style/NTRegularTextAppearance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Booking Id" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <ImageView
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:src="@drawable/location_drop" />
+
+                            <com.eviort.cabedriver.NTCustomView.NTTextView
+                                android:id="@+id/tv_drop"
+                                style="@style/NTRegularTextAppearance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Booking Id" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <ImageView
+                        android:id="@+id/img_navbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/navigation" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/dashed_border"
+                android:padding="@dimen/_5sdp"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTCircularImageView
+                        android:id="@+id/iv_userAvatar"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:src="@drawable/placeholder" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_5sdp">
+
+                        <com.eviort.cabedriver.NTCustomView.NTTextView
+                            android:id="@+id/tv_userName"
+                            style="@style/NTRegularTextAppearance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Booking Id" />
+
+                        <RatingBar
+                            android:id="@+id/rv_userRating"
+                            style="@style/NTSmallRatingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_call_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        app:srcCompat="@drawable/call" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/dashed_border"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Notes for you:" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_driverNotes"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Comment" />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tl_invoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/dashed_border"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="Invoice Details" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Base Fare" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_baseFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Distance Fare" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_distanceFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Minutes Fare" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_minFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow android:visibility="gone">
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Waiting Fare" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_waitingFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VAT" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_taxFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Discount" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_discountFare"
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/theme_secondary" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@color/theme_secondary" />
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        style="@style/NTHintTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total" />
+
+                    <com.eviort.cabedriver.NTCustomView.NTTextView
+                        android:id="@+id/tv_totalFare"
+                        style="@style/NTLargeTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="Booking Id" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+                        style="@style/NTRegularTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:text="Cancel Trip" />
+
+                    <ImageView
+                        android:id="@+id/show_hide_cancelview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        app:srcCompat="@drawable/icon_show_hide" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tl_cancelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:stretchColumns="*"
+                android:visibility="gone">
+
+                <TableRow>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="500">
+
+                        <com.eviort.cabedriver.NTCustomView.NTEditText
+                            style="@style/NTHintTextAppearance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:hint="Enter Cancel Reason"
+                            android:minLines="4"
+                            android:padding="@dimen/_5sdp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTButton
+                        android:id="@+id/btn_cancelWithoutRequest"
+                        style="@style/NTButtonStyleRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/cancel_without_request" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <com.eviort.cabedriver.NTCustomView.NTButton
+                        android:id="@+id/btn_cancelRequest"
+                        style="@style/NTButtonStyleRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/raise_cancel_request" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

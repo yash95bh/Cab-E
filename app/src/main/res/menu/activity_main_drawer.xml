@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_past_trip"
+            android:icon="@drawable/ic_past_trips"
+            android:title="@string/action_trips"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_street_ride"
+            android:icon="@drawable/ic_street_ride"
+            android:title="@string/action_street_ride"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_earnings"
+            android:icon="@drawable/ic_earnings"
+            android:title="@string/action_earnings"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/ic_summary"
+            android:title="@string/action_summary"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_reward"
+            android:icon="@drawable/icon_about"
+            android:title="@string/action_rewards"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings_item" />
+        <!--<item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="@string/action_language" />-->
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/action_notifcation" />
+        <item
+            android:id="@+id/nav_upload_docs"
+            android:icon="@drawable/icon_document"
+            android:title="@string/uploaddocument"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/action_logout" />
+
+    </group>
+</menu>

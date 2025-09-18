@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_notify" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+                        android:id="@+id/txtTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:text="title"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_17sdp" />
+
+                </LinearLayout>
+
+
+            </TableRow>
+        </TableLayout>
+
+        <com.eviort.cabedriver.NTCustomView.NTTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.eviort.cabedriver.NTCustomView.NTTextView
+
+            android:id="@+id/team_unico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:autoLink="all"
+            android:text="@string/happy_ride"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.eviort.cabedriver.NTCustomView.NTTextView
+
+            android:id="@+id/happy_ride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="@string/team_unico"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.eviort.cabedriver.NTCustomView.NTTextView
+            android:id="@+id/date_picker_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:padding="@dimen/_5sdp"
+            android:text="title"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/_11sdp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/text_color_lite_gray" />
+
+</LinearLayout>

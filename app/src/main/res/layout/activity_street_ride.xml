@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_view"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:visibility="visible"
+            app:tint="@color/black" />
+
+        <com.eviort.cabedriver.NTCustomView.NTBoldTextView
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/action_street_ride"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_srcdest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:background="@drawable/shadow_background"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_18sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:src="@drawable/round_shape" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:src="@drawable/where_to_icon" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/_5sdp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/imgSource"
+                                android:orientation="vertical">
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/txtaddressSourcelabel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:maxLines="1"
+                                    android:text="@string/pick_me_start"
+                                    android:textAppearance="@style/NTRegularTextAppearance"
+                                    android:textColor="@color/colorGreyDark" />
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/sr_pickuploc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="start|center"
+                                    android:layout_marginRight="@dimen/_20sdp"
+                                    android:layout_weight="1"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="@string/enter_source"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:paddingTop="@dimen/_3sdp"
+                                    android:paddingBottom="10dp"
+                                    android:text=""
+                                    android:textAppearance="@style/NTLargeTextAppearance"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/_13sdp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imgSource"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:padding="@dimen/_1sdp"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_start" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/ll_stop_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_gravity="center"
+                                android:background="@color/quantum_grey200"></View>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_42sdp"
+                                android:layout_toRightOf="@+id/imgstop1"
+                                android:orientation="vertical">
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/txt_stop_label_one"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@android:color/transparent"
+                                    android:maxLines="1"
+                                    android:text="@string/add_stop"
+                                    android:textAppearance="@style/NTRegularTextAppearance"
+                                    android:textColor="@color/colorGreyDark" />
+
+                                <com.eviort.cabedriver.NTCustomView.NTEditText
+                                    android:id="@+id/txt_stop_one"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="start|center"
+                                    android:layout_weight="1"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="@string/enter_stop1"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:paddingTop="@dimen/_3sdp"
+                                    android:paddingBottom="10dp"
+                                    android:text=""
+                                    android:textAppearance="@style/NTLargeTextAppearance"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/_13sdp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imgstop1"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:padding="@dimen/_1sdp"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_add_stop" />
+
+                            <ImageView
+                                android:id="@+id/image_delete_stop_one"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_delete_stop" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/ll_stop_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_gravity="center"
+                                android:background="@color/quantum_grey200"></View>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_42sdp"
+                                android:layout_toRightOf="@+id/imgstop2"
+                                android:orientation="vertical">
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/txt_stop_label_two"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@android:color/transparent"
+                                    android:maxLines="1"
+                                    android:text="@string/add_stop"
+                                    android:textAppearance="@style/NTRegularTextAppearance"
+                                    android:textColor="@color/colorGreyDark" />
+
+                                <com.eviort.cabedriver.NTCustomView.NTEditText
+                                    android:id="@+id/txt_stop_two"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="start|center"
+                                    android:layout_marginRight="@dimen/_20sdp"
+                                    android:layout_weight="1"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="@string/enter_stop2"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:paddingTop="@dimen/_3sdp"
+                                    android:paddingBottom="10dp"
+                                    android:text=""
+                                    android:textAppearance="@style/NTLargeTextAppearance"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/_13sdp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imgstop2"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:padding="@dimen/_1sdp"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_add_stop" />
+
+                            <ImageView
+                                android:id="@+id/image_delete_stop_two"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_delete_stop" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_gravity="center"
+                                android:background="@color/quantum_grey200"></View>
+
+                            <LinearLayout
+                                android:id="@+id/ll_dest"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_42sdp"
+                                android:layout_toRightOf="@+id/imgdest"
+                                android:orientation="vertical">
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/txtdestiantionlabel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@android:color/transparent"
+                                    android:maxLines="1"
+                                    android:text="@string/destination_text"
+                                    android:textAppearance="@style/NTRegularTextAppearance"
+                                    android:textColor="@color/bt_blue" />
+
+                                <com.eviort.cabedriver.NTCustomView.NTTextView
+                                    android:id="@+id/sr_droploc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="start|center"
+                                    android:layout_weight="1"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="@string/enter_destination"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:paddingTop="@dimen/_3sdp"
+                                    android:paddingBottom="10dp"
+                                    android:text=""
+                                    android:textAppearance="@style/NTLargeTextAppearance"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/_13sdp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imgdest"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:padding="@dimen/_1sdp"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_destination" />
+
+                            <ImageView
+                                android:id="@+id/ic_add_stop_plus"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_add_stop_plus" />
+
+                            <ImageView
+                                android:id="@+id/ic_swap"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:clickable="true"
+                                android:visibility="gone"
+                                app:srcCompat="@drawable/ic_swap_stop" />
+
+                            <ImageView
+                                android:id="@+id/imgDestClose"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:visibility="gone"
+                                app:srcCompat="@drawable/ic_baseline_remove_circle_24" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.eviort.cabedriver.NTCustomView.NTEditText
+                android:id="@+id/sr_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/shadow_background"
+                android:drawableLeft="@drawable/ic_usernae"
+                android:drawablePadding="@dimen/_2sdp"
+                android:hint="@string/st_ride_name"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="visible" />
+
+            <com.eviort.cabedriver.NTCustomView.NTEditText
+                android:id="@+id/sr_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/border_theme"
+                android:hint="Customer Last Name"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone" />
+
+            <com.eviort.cabedriver.NTCustomView.NTEditText
+                android:id="@+id/sr_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/border_theme"
+                android:hint="Customer Email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp"
+                android:visibility="gone" />
+
+            <com.eviort.cabedriver.NTCustomView.NTEditText
+                android:id="@+id/sr_phno"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/shadow_background"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="@dimen/_2sdp"
+                android:hint="@string/st_ride_number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="visible" />
+
+            <com.eviort.cabedriver.NTCustomView.NTTextView
+                android:id="@+id/sr_app_fare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/border_theme"
+                android:hint="@string/approx_fare"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="@dimen/_18sdp"
+                        app:cardElevation="4dp"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/imgMenu"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:padding="@dimen/_10sdp"
+                            app:tint="@color/white"
+                            app:srcCompat="@drawable/ic_right_arrow" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <com.eviort.cabedriver.NTCustomView.NTButton
+                        android:id="@+id/btn_start_streetride1"
+                        style="@style/NTButtonStyleRide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:padding="@dimen/_10sdp"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:text="@string/start"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp"
+                        android:visibility="gone" />
+
+                    <com.eviort.cabedriver.swipebtn.SwipeButton
+                        android:id="@+id/btn_start_streetride"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:layout_marginEnd="10dp"
+                        app:button_background="@drawable/rounded_button_slide"
+                        app:button_bottom_padding="15dp"
+                        app:button_image_disabled="@drawable/ic_baseline_arrow_forward_24"
+                        app:button_image_enabled="@drawable/ic_baseline_arrow_forward_24"
+                        app:button_image_height="@dimen/_40sdp"
+                        app:button_image_width="@dimen/_40sdp"
+                        app:button_left_padding="18dp"
+                        app:button_right_padding="18dp"
+                        app:button_top_padding="15dp"
+                        app:button_trail_drawable="@drawable/ic_baseline_arrow_forward_24"
+                        app:has_activate_state="true"
+                        app:initial_state="disabled"
+                        app:inner_text="@string/start"
+                        app:inner_text_background="@drawable/rounded_button_gray"
+                        app:inner_text_bottom_padding="15dp"
+                        app:inner_text_color="@color/black"
+                        app:inner_text_size="16sp"
+                        app:inner_text_top_padding="15dp" />
+
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

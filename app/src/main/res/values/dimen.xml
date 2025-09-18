@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Dimension -->
+
+    <dimen name="small_font">@dimen/_10sdp</dimen>
+    <dimen name="regular_font">@dimen/_12sdp</dimen>
+    <dimen name="large_font">@dimen/_14sdp</dimen>
+    <dimen name="extra_large_font">@dimen/_16sdp</dimen>
+
+    <!-- Padding-->
+
+    <dimen name="padding_5dp">@dimen/_5sdp</dimen>
+    <dimen name="padding_10dp">@dimen/_10sdp</dimen>
+
+
+    <!--Country Code Picker-->
+
+    <dimen name="google_1x">8dp</dimen>
+
+    <!--Recycler fast scroller-->
+
+    <dimen name="fastscroll__bubble_corner">20dp</dimen>
+    <dimen name="fastscroll__bubble_size">50dp</dimen>
+    <dimen name="fastscroll__handle_corner">3dp</dimen>
+    <dimen name="fastscroll__handle_height">30dp</dimen>
+    <dimen name="fastscroll__handle_width">6dp</dimen>
+    <dimen name="fastscroll__handle_inset">9dp</dimen>
+    <dimen name="fastscroll__handle_clickable_width">24dp</dimen>
+    <dimen name="fastscroll__handle_padding">2dp</dimen>
+
+</resources>

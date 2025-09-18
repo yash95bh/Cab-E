@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Pikap Driver"><!ENTITY appNamePassenger "Pikap Driver"><!ENTITY Provider "Driver"><!ENTITY provider "driver"><!ENTITY Service "Ride"><!ENTITY service "ride">]>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pikap Driver</string>
+
+    <!--Google map-->
+    <!-- <string name="google_map_api" translatable="false">AIzaSyBhBVazQLtFDge8CTHDSgk_AjKz6cMssgI</string>-->
+
+    <!--Facebook App Id Account Kit -->
+    <string name="FACEBOOK_APP_ID" translatable="false"></string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false"></string>
+
+    <string name="mobile_valid">El número de móvil debe tener al menos 10 dígitos</string>
+    <!--Activity Begin-->
+
+    <string name="app_active">la aplicación está activa</string>
+
+    <string name="signin_txt">Bienvenido de nuevo, inicia sesión para continuar</string>
+    <string name="signin">Iniciar sesión</string>
+    <string name="signup">Regístrate</string>
+    <string name="enter_otp_digit">Ingrese el código de verificación de 4 dígitos enviado a su número de teléfono</string>
+
+    <string name="signup_here"><u>Inscribirse</u></string>
+    <string name="click_here"><u>haga clic aquí</u></string>
+    <string name="skip">SALTAR</string>
+    <string name="HelpSupport">asistencia &amp; Servicio</string>
+    <string name="no_avaliable_service">servicio no disponible!, por favor verifique la ubicación seleccionada e intente nuevamente</string>
+    <!--App update-->
+    <string name="version_up_message">Hay una nueva versión de la aplicación Pikap Driver disponible, esta versión ya no es compatible.</string>
+    <string name="version_up_title">Actualizar</string>
+    <string name="version_up_now">Actualizar ahora</string>
+    <string name="version_up_later">Más tarde</string>
+
+    <string name="ear">Ganancias (haga clic para tripwise)</string>
+    <string name="tripf">Tarifa de viaje</string>
+    <string name="num">Número de teléfono del cliente</string>
+    <string name="dtopp">Ingrese la ubicación de entrega</string>
+    <string name="stop1">Por favor complete la dirección de la parada1</string>
+    <string name="trips">Tarifa de viaje</string>
+    <string name="Start">Comenzar</string>
+    <string name="Pause">Pausa</string>
+    <string name="Slide">Deslizar para llegar</string>
+    <string name="Rider">Tiempo de espera del usuario</string>
+    <string name="cor">Pago Corporativo</string>
+    <string name="Confirmp">Confirmar pago</string>
+    <string name="corpo">Corporativo</string>
+    <string name="CollectFare">Cobrar tarifa</string>
+    <string name="roundoff">Redondeado</string>
+    <string name="coupon">Cupón de Ahorro</string>
+    <string name="acce">Tarifa de acceso total</string>
+    <string name="ridefare">tarifa de viaje</string>
+    <string name="bill">Detalles de la factura</string>
+    <string name="invoicecopy">Obtener copia de factura</string>
+    <string name="gethelp">Consigue ayuda</string>
+
+    <string name="Message">Mensaje</string>
+    <string name="NoMessage">Sin mensaje</string>
+    <string name="Rateyourtripwith">Califica tu viaje con</string>
+    <string name="EnterTollFee">Ingrese la tarifa de peaje</string>
+    <string name="EnterExtraFee">Ingrese la tarifa adicional</string>
+    <string name="EnterBaseFee">Ingrese la tarifa base</string>
+    <string name="EnterAmount">Ingrese la cantidad</string>
+    <string name="wait_for">Esperando a</string>
+    <string name="to_arrive"> llegar</string>
+    <!--  Activity SignIN-->
+    <string name="wait_time">Tiempo de espera del usuario</string>
+
+    <string name="welcome_back">Bienvenido a Pikap Driver</string>
+    <string name="whats_your_mail_address">¿Cuál es su dirección de correo electrónico?</string>
+    <string name="i_forgot_my_password">Olvidé mi contraseña ?</string>
+    <string name="dont_have_account">¿No tienes una cuenta?</string>
+    <string name="enter_your_mail_id">Ingrese su ID de correo</string>
+    <string name="enter_your_password">Ingresa tu contraseña</string>
+    <string name="password_size">El tamaño de la contraseña debe ser al menos 6</string>
+    <string name="sample_mail_id">name@examplecom</string>
+    <string name="amt_added">Agregado exitosamente</string>
+
+    <string name="mobile_Number">Ingrese su numero celular</string>
+    <string name="otp">Fiscalía</string>
+    <string name="otp_text">Ingrese amablemente el código recibido en su teléfono</string>
+    <string name="sign_in_password">Contraseña</string>
+    <string name="sign_in_vehicle_no">No vehiculo</string>
+    <string name="example_mobile_num">0987654321</string>
+    <string name="enter_password">Introducir la contraseña</string>
+    <string name="enter_otp">Ingresar OTP</string>
+    <string name="forgot_password">Has olvidado tu contraseña</string>
+    <string name="resend_otp">Reenviar OTP</string>
+    <string name="login_btn">Acceso</string>
+    <string name="send_otp_btn">Enviar OTP</string>
+
+
+    <!-- Error-->
+
+    <string name="Erro_Signin_Message" tools:ignore="DuplicateDefinition,MissingTranslation">Usuario o contraseña incorrectos</string>
+    <string name="email">Ingrese su ID de correo electrónico</string>
+    <string name="invalid_email"> Su ID de correo no es válido</string>
+    <string name="invalid_password">Ingresa tu contraseña</string>
+    <string name="enter_vehicle_no">Ingrese su vehículo No</string>
+
+    <!--Activity SignUp-->
+
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">confirmar Contraseña</string>
+
+    <string name="enter_name">Introduzca su nombre</string>
+    <string name="signup_enter_password">Por favor, ingrese contraseña</string>
+    <string name="signup_password_minimum">Longitud de la contraseña Mínimo 6 dígitos</string>
+    <string name="signup_mobile_no">Ingrese el número de móvil</string>
+
+    <string name="signup_enter_conf_password">Por favor ingrese Confirmar contraseña</string>
+    <string name="signup_password_not_match">Contraseña o Confirmar contraseña no coincide</string>
+
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="i_agree">Acepto  </string>
+    <string name="terms_">Términos de servicio</string>
+    <string name="next">Próximo</string>
+    <!--Street ride-->
+    <string name="riding_status">Tiempo de espera del usuario</string>
+    <string name="pick_me_start">Comenzar</string>
+    <string name="destination_text">Destino</string>
+    <string name="stop_label_one">Parada 1</string>
+    <string name="stop_label_two">Parada 2</string>
+    <string name="add_stop">Añadir parada</string>
+
+    <!--Wallet-->
+    <string name="cashout">retiro</string>
+    <string name="your_earnings">Tus ganancias</string>
+    <string name="driver_wallet">Ganancias del conductor</string>
+    <string name="from_to">01 al 31 de marzo</string>
+    <string name="Today"><b>Today</b> Apr 10</string>
+    <string name="no_rides">Todavía no tomaste ningún viaje</string>
+    <string name="no_rides_today">No tomaste ningún paseo hoy</string>
+    <string name="see_all_activity">Ver toda la Actividad</string>
+    <!--Earnings-->
+    <string name="time">Tiempo</string>
+    <string name="distance">Distancia</string>
+    <string name="time_distance">Fecha/Distancia</string>
+    <!--Ride Status-->
+    <string name="trip_status">Estado del viaje</string>
+    <string name="searching_status">BUSCANDO</string>
+    <string name="cancelled_status">CANCELADO</string>
+    <string name="accepted_status">ACEPTADO</string>
+    <string name="started_status">COMENZÓ</string>
+    <string name="arrived_status">LLEGÓ</string>
+    <string name="pickedup_status">RECOGIDO</string>
+    <string name="dropped_status">ABANDONÓ</string>
+    <string name="completed_status">TERMINADO</string>
+    <string name="scheduled_status">PROGRAMADO</string>
+    <string name="end_status">FIN</string>
+    <string name="status">Estado del viaje</string>
+    <string name="service_name">Nombre del Servicio</string>
+    <string name="booking_id">Identificación de la reserva</string>
+    <string name="request_id">Identificación de solicitud</string>
+    <string name="total">Total</string>
+    <string name="trip_fare">Honorarios</string>
+    <string name="tips">Consejos</string>
+    <string name="trip_commission">Comisión</string>
+    <string name="total_earnings">Ganancias Totales</string>
+    <!--<string name="target_completed">Target\nCompleted</string>-->
+    <string name="target_completed">entrega completada</string>
+
+    <!--Layout Success-->
+
+    <string name="success_title">&appName;</string>
+    <string name="success_desc">Su registro con éxito \n haga clic en el botón Aceptar para iniciar sesión</string>
+    <string name="success_password_desc">Su contraseña cambió correctamente \n haga clic en el botón Aceptar para iniciar sesión</string>
+    <string name="success_ok">DE ACUERDO</string>
+
+    <!--Layout Custom Alert-->
+
+    <string name="alert_success">Éxito</string>
+    <string name="alert_error">Error</string>
+    <string name="alert_success_desc">Descripción del éxito</string>
+    <string name="alert_error_desc">Error de descripción</string>
+    <string name="alert_ok">DE ACUERDO</string>
+
+    <string name="something_went_wrong_net">Algo salió mal, por favor verifique la conexión a Internet</string>
+    <string name="email_validation">Ingrese su ID de correo electrónico</string>
+    <string name="mobile_validation">Ingrese su numero celular</string>
+    <string name="not_valid_email">No es una identificación de correo electrónico válida</string>
+    <string name="not_valid_mobile">No es un número de móvil válido</string>
+    <string name="password_validation">La contraseña no se podía dejar vacía</string>
+    <string name="first_name_empty">Primer nombre (requerido</string>
+    <string name="last_name_empty">Apellido Necesario</string>
+    <string name="mobile_number_empty">Número de móvil requerido</string>
+    <string name="terms_conditon_msg">Por favor acepte los términos y condiciones.</string>
+    <string name="profile_img_err">Por favor seleccione imagen de perfil</string>
+    <string name="mobile_number_validation">El número de móvil debe tener números entre 10 y 20 dígitos</string>
+    <string name="otp_validation">El campo OTP es obligatorio</string>
+    <string name="inncorrect_otp">OTP incorrecta</string>
+    <string name="confirm_password_validation">Contraseña no coincide</string>
+    <string name="reset_password">Restablecer la contraseña</string>
+    <string name="note">Nota: Ingrese el otp enviado a su dirección de correo electrónico registrada</string>
+    <string name="secrete_code">Ingresar OTP</string>
+    <!--Summary Layout-->
+    <string-array name="time_period">
+        <item>Hoy</item>
+        <item>Seman</item>
+        <item>Mes</item>
+        <item>Año</item>
+        <item>Todo</item>
+    </string-array>
+    <string name="summary">Resumen</string>
+    <string name="total_rides">Número total de viajes</string>
+    <string name="revenue">Ganancia</string>
+    <string name="schedule_rides">Número de viajes programados</string>
+    <string name="canceled_rides">Viajes cancelados</string>
+    <string name="rides">paseos</string>
+    <string name="cancel_ride_desc">¿Quieres cancelar el servicio?</string>
+    <!--  Error Layout-->
+
+    <string name="no_notification">¿Esperando notificaciones?</string>
+    <string name="no_notification_desc">Le enviaremos una notificación si sucede algo nuevo.</string>
+
+    <string name="no_search_result">¡No hay resultados de búsqueda!</string>
+    <string name="no_search_result_desc">No se encontró ningún resultado en su búsqueda. Prueba la próxima vez</string>
+
+    <string name="no_corporate">Crear perfil corporativo</string>
+    <string name="no_corporate_desc">Cree este perfil para obtener los detalles de su viaje relacionado con el trabajo y la factura en su correo electrónico corporativo</string>
+
+
+    <string name="no_internet">Sin internet</string>
+    <string name="no_internet_desc">El sistema está fuera de línea Verifique su conexión a Internet y vuelva a intentarlo</string>
+
+    <string name="no_loc_service">Habilite la ubicación</string>
+    <string name="no_loc_service_desc">El sistema está fuera de línea. Verifique la conexión de su ubicación y vuelva a intentarlo.</string>
+
+    <string name="tap_to_loc">Toque para activar la ubicación</string>
+    <string name="tap_to_network">Toque para conexión de red</string>
+
+    <!--Country Code -->
+
+    <string name="search_hint">Buscar...</string>
+    <string name="no_result_found">Resultados no encontrados</string>
+    <string name="select_country">Seleccione un condado</string>
+
+
+    <!--Navigation Items-->
+
+    <string name="action_trips">Tus Viajes</string>
+    <string name="action_street_ride">Paseo en la calle</string>
+    <string name="action_earnings">Ganancias</string>
+    <string name="action_summary">Resumen</string>
+    <string name="action_future_ride">Viajes Futuros</string>
+    <string name="action_settings_item">Ajustes</string>
+    <string name="action_language">Idioma</string>
+    <string name="action_wallet">Billetera</string>
+
+    <string name="action_emergency_contact">Emergencia</string>
+    <string name="low_balance">Recarga tu billetera para hacer un Viaje</string>
+    <string name="action_notifcation">Notificación</string>
+    <string name="action_rewards">Tus recompensas</string>
+    <string name="version">&#169; 2024 Pikap Driver.Versión</string>
+    <string name="drive_with_crown">Pikap Driver</string>
+    <string name="view_profile">Ver perfil</string>
+    <string name="profile">Perfil</string>
+
+    <string name="gal_txt">Elegir de la galería</string>
+    <string name="add_photo">¡Añadir foto!</string>
+    <string name="take_photo">Tomar foto</string>
+    <!--Language-->
+    <string name="demo_error">This Feature is not available in Demo.Kindly contact sales team to include it in your project</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="language">Idioma</string>
+    <string name="lang_desc">Seleccione el idioma preferido</string>
+    <string name="lang_french">French</string>
+    <string name="lang_swahili">Swahili</string>
+
+    <string name="select">Seleccionar</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_german">German</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_english">Inglés</string>
+    <string name="team_unico">Equipo Pikap Driver</string>
+    <string name="happy_ride">paseo feliz</string>
+    <!--Navigation Drawer-->
+
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="logout_user">Cerrar sesión de usuario!</string>
+
+
+    <!--Alert-->
+
+    <string name="f_pop_sos">LLAMADA DE SOCORRO</string>
+    <string name="f_pop_sos_desc">¿Está seguro de que desea enviar un mensaje de SOS a familiares y amigos?</string>
+    <string name="f_pop_sos_text">Mensaje de texto</string>
+    <string name="f_pop_sos_whats">Mensaje de Whats App</string>
+    <string name="f_pop_sos_playstore">Aplicación actualmente no instalada</string>
+    <string name="f_pop_sos_install">Instalar</string>
+    <string name="f_pop_sos_no">No</string>
+
+    <string name="password_PlaceHolder" tools:ignore="ExtraTranslation">Contraseña</string>
+    <string name="Edit_Profile" tools:ignore="ExtraTranslation">Editar perfil</string>
+    <string name="Edit_Account" tools:ignore="ExtraTranslation">Editar cuenta</string>
+
+    <!--Activity Profile-->
+
+    <string name="personal">Personal</string>
+
+    <string name="fav_driver">Conductor favorito</string>
+
+    <!--Fragment Personal Profile-->
+
+    <string name="personal_name">Nombre</string>
+    <string name="personal_change_pass">Cambiar la contraseñad</string>
+    <string name="btn_back">Atrás</string>
+    <string name="btn_save">Ahorrar</string>
+    <string name="mobile_no">ingrese su número celular</string>
+    <string name="email_id">Correo electrónico</string>
+    <string name="enter_email_id">Ingrese su ID de correo electrónico</string>
+    <string name="enter_password_label">Ingresa tu contraseña</string>
+    <!-- Alert Error-->
+
+    <string name="Please_add_emergency_contact" tools:ignore="MissingTranslation">Por favor agregue contacto de emergencia</string>
+    <string name="pp_name">Ingrese su nombre</string>
+    <string name="pp_mobile_no">Introduce el número de móvil</string>
+    <string name="pp_crnt_password">Introducir la contraseña actual</string>
+    <string name="pp_chng_password">Ingrese Cambiar Contraseña</string>
+    <string name="pp_confm_password">Ingresar Confirmar Contraseña</string>
+    <string name="pp_password_minimum">Longitud de la contraseña Mínimo 6 dígitos</string>
+    <string name="pp_cnfrm_password_minimum">Longitud de la contraseña Mínimo 6 dígitos</string>
+    <string name="pp_password_not_match">Contraseña o Confirmar contraseña no coincide</string>
+
+    <string name="enter_destination">Introduce el destino</string>
+    <string name="enter_source">Introduce la fuente</string>
+    <string name="enter_stop1">Introduzca la parada uno</string>
+    <string name="enter_stop2">Entra en la parada dos</string>
+    <string name="st_ride_name">Nombre del cliente</string>
+    <string name="st_ride_number">Número de teléfono del cliente</string>
+    <!--  Success-->
+
+    <string name="save_success">Perfil actualizado con éxito</string>
+    <!-- Change password-->
+    <string name="edit_password">Editar contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+
+    <!--Fragment History-->
+
+    <string name="offers">ofertas</string>
+    <string name="offered">Ofrecido</string>
+    <string name="accepted">Aceptado</string>
+    <string name="completed">Terminado</string>
+    <string name="past_trip">Viaje pasado</string>
+    <string name="accept">Aceptar viaje</string>
+    <string name="start">Iniciar paseo en la calle</string>
+    <string name="reject_despatcher">Su viaje ha sido cancelado por el despachador. Intenta más tarde</string>
+
+
+    <string name="cancel_driver">Su viaje ha sido rechazado por los conductores. Intenta más tarde</string>
+    <string name="you_cancel_ride">Ha cancelado su viaje</string>
+
+    <string name="reject_driver">Su viaje ha sido rechazado por los conductores. Intenta más tarde</string>
+    <string name="no_drivers">No se encontraron controladores</string>
+    <string name="cancel_ridee">Su viaje ha sido cancelado</string>
+    <string name="saferide_driver">Conductor de viaje seguro</string>
+
+    <!--Emergency-->
+
+    <string name="action_contact">Emergencia</string>
+    <string name="eclimit">Máximo puede agregar 5 contactos a su lista de emergencia</string>
+    <string name="emergencytxt">Se enviará un mensaje SOS, incluidas sus coordenadas GPS, a sus contactos de emergencia</string>
+
+    <string name="add_contact">Agregar contacto</string>
+    <string name="contact_title">Ningún contacto de emergencia agregado</string>
+    <string name="contact_desc">Ingrese su dirección de correo electrónico</string>
+
+
+    <!-- Forgot Password-->
+
+
+    <string name="enter_your_mail_address">Ingrese su dirección de correo electrónico</string>
+    <string name="enter_your_mobile_number">Ingrese su numero celular</string>
+    <string name="verify_with_OTP">Verificar con OTP</string>
+    <string name="send_via_mail">Enviado por correo a</string>
+    <string name="send_via_mobile">Enviado por móvil</string>
+    <string name="password_reset"><i>Su enlace de restablecimiento de contraseña se enviará a su número de teléfono móvil ingresado <br>donde puede crear la nueva contraseña
+    </br></i></string>
+
+    <!--Change Password-->
+    <string name="change_password_title">Cambiar la contraseña</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+
+    <string name="confirm_pwd">confirmar Contraseña</string>
+    <string name="please_enter_current_pass">Por favor ingrese la contraseña actual</string>
+    <string name="please_enter_new_pass">Por favor ingrese una nueva contraseña</string>
+    <string name="please_enter_confirm_pass">Por favor ingrese la contraseña de confirmación</string>
+    <string name="different_passwords">La contraseña no coincide</string>
+
+    <!--  Layout Rating-->
+
+    <string name="rating_driver_name">Ayuda a John a mejorar</string>
+    <string name="rating_driver_desc">¿Cómo calificaría la comunicación entre usted y John?</string>
+    <string name="enter_comment">Escriba su comentario</string>
+    <string name="rating_submit">Deslizar para enviar</string>
+    <string name="optional_rating">Calificación opcional</string>
+    <!--Fragment Offer-->
+
+    <string-array name="select_duration">
+
+        <item>Hoy</item>
+        <item>Últimos 7 días</item>
+        <item>Últimos 30 días</item>
+    </string-array>
+
+    <string name="no_past_trip">No has hecho viajes</string>
+    <string name="AddPhoto">¡Añadir foto!</string>
+    <string name="no_past_trip_desc">Tan Pikap Driver como termine un viaje, todos sus detalles relevantes se encontrarán aquí</string>
+
+
+    <string name="dummy_fare" translatable="false">$ 0.00</string>
+
+
+    <!--Activity History Detail-->
+    <string name="view_invoice">Mirar la factura</string>
+    <string name="history">Historia</string>
+    <string name="comments">Comentarios</string>
+    <string name="cancel_ride">Cancelar</string>
+    <string name="raise_cancel_request">Levantar cancelar solicitud</string>
+    <string name="raise_cancel_request_desc">¿Quiere elevar una Solicitud de Cancelación al despachador? </string>
+    <string name="cancel_without_request">Cancelar sin aprobación</string>
+    <string name="cancel_without_request_desc">Se aplicará una multa por cancelar el viaje sin la aprobación del despachador</string>
+    <string name="call_btn">Llamar</string>
+
+    <string name="payment_methods">Métodos de pago</string>
+    <string name="where_to_go">¿Dónde ir?</string>
+
+
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">De acuerdo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="edit_dest">Editar destino</string>
+    <!-- Layout Invoice-->
+    <string name="base_fare">Tarifa base</string>
+    <string name="flat_fare">Tarifa Plana </string>
+    <string name="distance_fare">Tarifa de distancia</string>
+    <string name="min_fare">Tarifa por minuto</string>
+    <string name="waiting_fare">Tarifa de espera de embarque</string>
+    <string name="stop_waiting_fare">Deja de esperar la tarifa</string>
+
+    <string name="toll">Peaje</string>
+    <string name="vat">Impuesto</string>
+    <string name="extra_fare">Tarifa adicional</string>
+    <string name="discount">Descuento</string>
+    <string name="invoice">Factura</string>
+    <string name="confirm">Confirmar</string>
+    <string name="payment_type">Tipo de pago :</string>
+    <string name="invoice_cash">Dinero</string>
+    <string name="invoice_card">Tarjeta</string>
+    <string name="invoice_card_desc">El pago se realizará a través de Tarjeta</string>
+    <string name="invoice_cash_desc">Recoja amablemente el efectivo del cliente</string>
+    <string name="invoice_booking_id">ID de reserva</string>
+    <string name="invoice_distance">Distancia</string>
+    <string name="invoice_total">Total</string>
+    <string name="invoice_no_of_seat">4 asientos</string>
+    <string name="additional_cost">Agregar costo adicional</string>
+    <string name="company_name"> Taxi Élite - Factura</string>
+    <string name="company_address">24 graham rd , Clayton South Victoria-3169</string>
+    <string name="company_phone">Ph: 04 - 00007</string>
+    <string name="company_website">info@elitetaxi.com</string>
+
+
+    <string name="no_offer">no tienes viajes</string>
+    <string name="no_offer_desc">Tan Pikap Driver como el pasajero reserve un viaje, todos sus detalles relevantes se encontrarán aquí</string>
+
+    <string name="no_accepted">No se aceptan viajes</string>
+    <string name="no_accepted_desc">Tan Pikap Driver como acepte un viaje, todos sus detalles relevantes se encontrarán aquí</string>
+    <!--Fragment Acceptor-->
+
+    <string name="no_upcoming_trip">No tienes viajes próximos</string>
+    <string name="no_upcoming_trip_desc">Tan Pikap Driver como reserve un viaje, todos sus detalles relevantes se encontrarán aquí</string>
+
+    <!--Fragment Settings And Fragment About-->
+
+    <string name="oops_connect_your_internet">Ups Conéctate a Internet</string>
+    <string name="something_went_wrong">Algo salió mal</string>
+    <string name="server_down">Servidor caido</string>
+    <string name="please_try_again">Inténtalo de nuevo</string>
+    <string name="True">true</string>
+    <string name="False">false</string>
+
+    <string name="app_details">Detalles de la aplicación</string>
+    <string name="legal">Legal</string>
+    <string name="terms">Términos &amp; Condiciones</string>
+    <string name="policy">política de privacidad</string>
+    <string name="share_app">Comparte la aplicación con un amigo</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="map_style">Estilo de mapa</string>
+    <string name="night_mode">Modo nocturno</string>
+    <string name="satellite_mode">Modo Satélite</string>
+    <string name="visit_our_site">Visite nuestro sitio web</string>
+    <string name="app_version">Versión</string>
+    <string name="call_support_center">Centro de soporte de llamadas</string>
+    <string name="ride_with_app">Centro de soporte de correo</string>
+    <string name="mail_support_center">Quiero viajar con Mama Taxi Passenger; ?</string>
+    <string name="get_driver_app">Obtener aplicación para pasajeros</string>
+    <string name="sorry_for_inconvinent">Disculpe las molestias, nuestros asistentes están ocupados en este momento.</string>
+    <string name="alert_logout_title">Cerrar sesión</string>
+    <string name="logout_alert">¿Estás seguro de que quieres cerrar sesión?</string>
+
+    <string name="help">Ayuda</string>
+
+
+    <!--Fragment FAQ-->
+    <string name="faq_title">Preguntas más frecuentes</string>
+
+    <!--Fragment Change Password-->
+
+    <string name="f_change_pass">Cambiar la contraseña</string>
+    <string name="f_current_password">Contraseña actual</string>
+    <string name="f_password">Contraseña</string>
+    <string name="f_confirm_password">confirmar Contraseña</string>
+    <string name="f_save">Ahorrar</string>
+    <string name="valid_image">Ninguna imagen encontrada</string>
+    <string name="update_success">Perfil actualizado.</string>
+
+    <!--Fragment Forget Password-->
+
+    <string name="f_forget_pass">Contraseña olvidada</string>
+    <string name="f_email">Identificación de correo</string>
+    <string name="f_send">Enviar</string>
+    <string name="f_next">Próximo</string>
+    <string name="verify_password">Verificar contraseña</string>
+    <string name="verify_code"> Código de verificación</string>
+
+
+    <!--Fragment About-->
+
+    <!-- Alert-->
+
+    <string name="f_pop_web_terms">Condiciones de uso</string>
+    <string name="f_pop_web_privacy">Privacidad y política</string>
+
+
+    <!--Fragment Home-->
+
+    <string name="f_go_online">Ir en línea</string>
+    <string name="f_go_offline">Salir de línea</string>
+    <string name="offline_now">Estás desconectado ahora</string>
+    <string name="online_now">Estás en línea ahora</string>
+    <string name="f_view_details">Ver detalles</string>
+    <string name="f_arrived">LLEGÓ</string>
+    <string name="slide_to_arrive">Deslizar para llegar</string>
+    <string name="slide_to_pickup">Deslizar para recoger</string>
+    <string name="slide_to_dropoff">Deslizar para dejar</string>
+    <string name="f_pickedup">RECOGIDO</string>
+    <string name="f_dropped">ABANDONÓ</string>
+    <string name="f_collect_fare">COBRAR TARIFA</string>
+    <string name="drop_loc">Ubicación de entrega</string>
+    <string name="pickup_loc">Lugar de recogida</string>
+    <string name="approx_fare">Tarifa aproximada</string>
+    <string name="no_address">No hay dirección disponible</string>
+    <string name="extra_fee_desc">Descripción de tarifa adicional</string>
+
+    <!-- Fragment Home Alert-->
+
+    <string name="f_alert_online_title">Ir en línea ?</string>
+    <string name="f_alert_online_description">¿Quieres ir en línea? \n Recibirás una solicitud de viaje \n cuando estés en línea.</string>
+    <string name="f_alert_offline_title">Salir de línea ?</string>
+    <string name="f_alert_offline_description">¿Quieres desconectarte? \n no recibirás ninguna solicitud de viaje \n cuando estés desconectado</string>
+    <string name="f_alert_no">No</string>
+
+    <!--Popup Screen-->
+    <string name="pickup">Lugar de recogida</string>
+    <string name="accept_txt">Aceptar</string>
+    <string name="reject_txt">Rechazar</string>
+    <!--Volley error-->
+    <string name="error_network_timeout">Internet lento. Pide tiempo fuera</string>
+    <string name="error_no_network">Conéctate a tu Internet</string>
+    <string name="error_auth_failure">Solicitar falla de autenticación</string>
+    <string name="error_server_connection">No es posible conectar con el servidor. revisa tu internet</string>
+    <string name="error_network">Error de red</string>
+    <string name="error_parse">Solicitar error de análisis</string>
+
+
+    <string name="vehicleDocument">Documentos del vehículo</string>
+    <string name="driverDocument">Documentos del conductor</string>
+    <string name="paymentDocument">Documentos de pago</string>
+    <string name="alert_delete_doc_title">Borrar</string>
+    <string name="delete_doc_alert">¿Seguro que quieres eliminar?</string>
+    <string name="uploaddocument">Subir documentos</string>
+    <string name="uploaddocumentsucc" translatable="false">Documento cargado con éxito</string>
+    <string name="uploaddocumentfail" translatable="false">Documento eliminado con éxito</string>
+    <string name="newappform">Formulario de nuevo solicitante</string>
+    <string name="hint_driver_form">(Image should be less than 5mb)</string>
+    <string name="regno">Número de registro</string>
+    <string name="manufacturer">Fabricante</string>
+    <string name="model">Modelo</string>
+    <string name="color">Color</string>
+    <string name="manufacturingYear">Año de manufactura</string>
+    <string name="insurance">Seguro</string>
+    <string name="cof">COF</string>
+    <string name="regCertificate">Certificado de registro</string>
+    <string name="license">Licencia</string>
+    <string name="inspection">Formulario de inspección del vehículo</string>
+    <string name="sign_primary">Firma del solicitante (principal)</string>
+    <string name="sign_secondary">Firma del solicitante (conjunta, si corresponde)</string>
+    <string name="idcard">Tarjeta de identificación</string>
+    <string name="joiningform">Formulario de inscripción</string>
+    <string name="depositform">Formulario de depósito</string>
+    <string name="workpermit">Permiso de trabajo</string>
+    <string name="accountnumber">Número de cuenta bancaria</string>
+    <string name="bankname">Nombre del banco</string>
+    <string name="passbook">libreta bancaria</string>
+    <string name="save_continue"><u>Guardar y continuar</u></string>
+    <string name="exit">salida</string>
+    <string name="close_"><u>Cerca</u></string>
+    <string name="waitingForApproval">¡Felicitaciones por enviar tus documentos!\nCompletado el proceso de verificación, tu cuenta quedara activada.</string>
+    <string name="editDocument"><u>¿Quieres subir/editar tus documentos?</u></string>
+
+
+    <string name="spsl">Certificado de coche de alquiler de vehículos/taxi</string>
+
+    <string name="unique_id">Foto del vehículo</string>
+    <string name="photograph">Certificado de registro</string>
+    <string name="ownership">Certificado RWC</string>
+    <string name="rwc_certificate">RWC Certificate</string>
+    <string name="enter_mobile_no">Ingrese su numero celular</string>
+    <string name="get_otp">Obtener OTP</string>
+    <string name="back">Atrás</string>
+    <string name="REQUESTED">SOLICITADO</string>
+    <string name="REJECTED">RECHAZADO</string>
+    <string name="APPROVED">APROBADO</string>
+    <string name="notify">“¡Feliz paseo! <br>Taxista del Equipo Mamá</br>”</string>
+    <string name="day">Dia</string>
+    <string name="night">Noche</string>
+    <string name="cashout_successfully">Tu Solicitud enviada con éxito</string>
+    <string name="minius_amount">Sus ganancias menos de cero</string>
+    <string name="req_process">Su solicitud de retiro ya está en curso</string>
+    <string name="please_addcontact">Por favor agregue contacto de emergencia</string>
+    <string name="user">Usuario</string>
+    <string name="earnings_req">Solicitud de ganancias</string>
+    <string name="delete_succ">Contacto eliminado con éxito</string>
+    <string name="added_succ"> Contacto agregado con éxito</string>
+    <string name="added_success">Agregado exitosamente</string>
+    <string name="no_request">No tienes Solicitud de Retiro</string>
+    <string name="otp_txt">Ingrese la OTP enviada a través del número de teléfono móvil</string>
+    <string name="resend_otp_in">Reenviar OTP</string>
+    <string name="otp_time">00:29</string>
+    <string name="Edit_Total">Editar feria total</string>
+    <string name="DATE">Fecha</string>
+    <string name="top_up">Valor de recarga</string>
+    <string name="mode">Modo</string>
+    <string name="re_history">Historial de recarga</string>
+    <string name="recharge_so">Tu recarga hasta ahora</string>
+    <string name="recharge">Recargar</string>
+    <string name="go_back">Regresa</string>
+    <string name="get_started">¡Empecemos!</string>
+    <string name="new_user">¿Nuevo en Pikap Driver?</string>
+    <string name="one_time_password">CÓDIGO DE SEGURIDAD</string>
+    <string name="action_promo_code">Código promocional</string>
+    <string name="action_payment">Pago</string>
+    <string name="action_refer"><![CDATA[Referir y ganar]]></string>
+    <string name="action_address">Dirección favorita</string>
+    <string name="rate_txt">Valora tu viaje con</string>
+
+
+</resources>
